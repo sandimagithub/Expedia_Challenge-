@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Exedia's Geolocation App</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+</head>
+
+<body>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Expedia Geolocation </a>
+        </div>
+       
+      </div>
+    </nav>
+
+    <!-- Main jumbotron -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Today is your lucky day!</h1>
+        <p>This is Expedia's Geolocation Hotel locator.  Please enter in either an address or a zip code to find hotels in the surrounding area. </p>
+
+         <div class="form-group">
+              <input id="address_input" type="text" placeholder="123 Main Street San Francisco CA" class="form-control">
+            </div>
+            <p><a id ="address" class="btn btn-primary btn-lg" href="#" role="button">Search by Address  &raquo;</a></p>
+           
+            <div class="form-group">
+              <input id= "zip_input" type="text" placeholder="94107" class="form-control">
+            </div>
+        <p><a id ="zip" class="btn btn-primary btn-lg" href="#" role="button">Search by Zip Code &raquo;</a></p>
+      </div>
+    </div>
+
+    <div id ="hotel_data">
+        <div class="container">
+        <div class="row margin-top-40">
+            <div id ="thumb" class="col-sm-2">
+            Thumbnail
+            </div>
+
+        <div class="col-sm-8">
+          <div class="bold">
+            <h3> Information about this Hotel:</h3>
+          </div>
+          <div id = "guest" class="margin-top-10">
+            Guest Rating:
+          </div>
+          <div id="star">
+            Star Rating: 
+          </div>
+          <br>
+         
+
+        </div>
+      
+        
+      </div>
+      </div>
+      </div>
+      <!-- Example row of columns -->
+<!--       <div class="row">
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div> -->
+
+      <hr>
+
+      <footer>
+        <p>&copy; Sandi's Project 2015 </p>
+      </footer>
+    </div> <!-- /container -->
+
+
+
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<!-- <script src="libraries/handlebars.js"></script>
+<script src="libraries/underscore.min.js"></script> -->
+<!-- <script src="libraries/backbone.min.js"></script> -->
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
